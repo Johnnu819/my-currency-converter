@@ -15,10 +15,11 @@ function App() {
 
     
     <CurrencySelector 
-    label="To"
-            value={toCurrency}
-            onChange={setToCurrency}
-            options={currencyOptions}></CurrencySelector>
+      label="To"
+      value={toCurrency}
+      onChange={setToCurrency}
+      options={currencyOptions}>
+      </CurrencySelector>
   );
 }
 
