@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOMClient from 'react-dom/client';
-import CurrencySelector from '../convertButton.js';
 import ConvertButton from '../convertButton.js';
 
 it('renders without crashing', () => {
