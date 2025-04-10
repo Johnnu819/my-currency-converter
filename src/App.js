@@ -1,8 +1,9 @@
 import logo from './logo.svg';
 import './App.css';
 import "./components/currencySelector.js"
-import CurrencySelector from './components/currencySelector.js';
 import { useState } from "react";
+import CurrencySelector from './components/currencySelector.js';
+import ConvertButton from './components/convertButton.js';
 
 function App() {
 
@@ -14,12 +15,7 @@ function App() {
   return (
 
     
-    <CurrencySelector 
-      label="To"
-      value={toCurrency}
-      onChange={setToCurrency}
-      options={currencyOptions}>
-      </CurrencySelector>
+    <ConvertButton on_click = {() => alert("clicked")}/>
   );
 }
 
