@@ -4,7 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 const ConversionOutput = ({amount}) => {
     
     return(  
-        <label class="form-label">{amount}</label>
+        <h3>Amount: {amount}</h3>
     );
 };
 
